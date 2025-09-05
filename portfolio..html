@@ -1,181 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dharshini T | Digital Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Exchange Portfolio</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f7fa;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(to right, #6a11cb, #2575fc);
-      color: white;
-      text-align: center;
-      padding: 70px 20px;
-    }
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-    }
-    header h3 {
-      margin: 6px 0;
-      font-weight: 400;
-    }
-    nav {
-      background: #222;
-      padding: 12px;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #2575fc;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #6a11cb;
-    }
-    .skills, .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; }
+    header { background: #004aad; color: #fff; padding: 1rem; text-align: center; }
+    section { padding: 1.5rem; }
     .card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      transition: 0.3s;
+      background: #f4f4f4;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    .card:hover {
-      transform: translateY(-6px);
-    }
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-    .social-icons a {
-      color: white;
-      margin: 0 10px;
-      font-size: 1.5rem;
-      transition: 0.3s;
-    }
-    .social-icons a:hover {
-      color: #2575fc;
-    }
-    .resume-btn {
+    img.profile {
+      max-width: 150px;
+      border-radius: 50%;
       display: block;
-      width: fit-content;
-      margin: 20px auto;
-      padding: 12px 24px;
-      background: #6a11cb;
-      color: white;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
+      margin: 1rem auto;
     }
-    .resume-btn:hover {
-      background: #2575fc;
-    }
+    footer { text-align: center; padding: 1rem; background: #eee; }
   </style>
 </head>
 <body>
-
-  <!-- Header -->
   <header>
-    <h1>Dharshini T</h1>
-    <h3>B.Sc AIML | KPR College of Arts, Science and Research</h3>
-    <h3>Full Stack Developer</h3>
+    <h1>My Student Exchange Portfolio</h1>
+    <p>KPR College of Arts Science and Research</p>
   </header>
 
-  <!-- Navigation -->
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <section>
+    <img src="yourphoto.jpg" alt="Profile Photo" class="profile" />
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hello! I’m Dharshini, currently pursuing a B.Sc in AI & Machine Learning. I participated in the 2025 Student Exchange Program at KPR College.</p>
+    </div>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m <b>Dharshini T</b>, a passionate <b>Full Stack Developer</b> with a strong academic foundation in <b>Artificial Intelligence & Machine Learning</b>.  
-       I enjoy building modern, user-friendly, and scalable applications. I am keen on solving real-world problems using technology and contributing to impactful projects.</p>
-  </section>
+    <div class="card">
+      <h2>Exchange Experience</h2>
+      <ul>
+        <li>Host University:KPR college of arts science and research</li>
+        <li>Duration: june 2024 –may 2027</li>
+        <li>Major Courses: AI and ML</li>
+      </ul>
+    </div>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-      <div class="card"><i class="fa-brands fa-html5"></i> HTML, CSS, JavaScript</div>
-      <div class="card"><i class="fa-brands fa-react"></i> React.js, Node.js</div>
-      <div class="card"><i class="fa-solid fa-database"></i> MySQL, MongoDB</div>
-      <div class="card"><i class="fa-brands fa-python"></i> Python, Machine Learning</div>
-      <div class="card"><i class="fa-solid fa-code"></i> Java, C++</div>
+    <div class="card">
+      <h2>Projects & Achievements</h2>
+      <p>• Built an AI chatbot for campus guidance.<br>
+         • Participated in cross-cultural hackathon, 2nd place.</p>
+    </div>
+
+    <div class="card">
+      <h2>Gallery</h2>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Developed a personal digital portfolio using HTML, CSS, and JavaScript to showcase skills and projects.</p>
-      </div>
-      <div class="card">
-        <h3>AI Chatbot</h3>
-        <p>Built an AI-powered chatbot to assist students with academic queries.</p>
-      </div>
-      <div class="card">
-        <h3>E-Commerce Platform</h3>
-        <p>Created a full-stack MERN application with payment gateway integration.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Resume Section -->
-  <section id="resume">
-    <h2>Resume</h2>
-    <a href="resume.pdf" class="resume-btn" target="_blank"><i class="fa-solid fa-download"></i> Download Resume</a>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p style="text-align:center;">Feel free to connect with me for collaborations, projects, or opportunities!</p>
-    <div class="social-icons" style="text-align:center;">
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#"><i class="fa-brands fa-github"></i></a>
-      <a href="#"><i class="fa-solid fa-envelope"></i></a>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 Dharshini T | All Rights Reserved</p>
-  </footer>
-
+  <footer>&copy; 2025 Dharshini </footer>
 </body>
 </html>
